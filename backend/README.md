@@ -11,7 +11,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 # On Windows.
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
-然后运行项目：
+然后配置项目：
 ```shell
 git clone https://github.com/JonathanSilver/mysql_fastapi_vue_sample_project
 cd mysql_fastapi_vue_sample_project/backend
